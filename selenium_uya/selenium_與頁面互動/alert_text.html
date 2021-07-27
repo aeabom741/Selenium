@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function disp_promt()
+        {
+            var name = prompt("請輸入你的姓名: ","")
+            if (name!=null && name!="")
+            {
+                document.write("Hello " + name + "!")
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" onclick="disp_promt()" value="點擊我">
+</body>
+</html>
