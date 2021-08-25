@@ -7,3 +7,9 @@ class Count:
     def add(self):
         return self.a+self.b
 
+    def multiple(self):
+        return self.a * self.b
+
+    def division(self):
+        return self.a / self.b
+    
